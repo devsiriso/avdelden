@@ -14,7 +14,8 @@ html, body, .container {
 
 #header {
     background-color: var(--main-bg-color);
-    padding: 5px 18px;
+    padding-left: 6em;
+    padding-right: 6em;
 }
 
 #header-text {
@@ -29,7 +30,9 @@ html, body, .container {
 }
 
 .nav {
-    background-color: var(--main-bg-color)
+    background-color: var(--main-bg-color);
+    padding-left: 6em;
+    padding-right: 6em;
 }
 
 .social-icon {
@@ -59,8 +62,35 @@ html, body, .container {
 
 #first {
     background-color: var(--secondary-bg-color);
-    padding: 5px 18px;
+    padding: 6em 6em;
 }
+
+#form {
+    height:60vh;
+    width:35vw;
+
+    padding: 2em 6em;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.10);
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.10);
+}
+
+.row-flex {
+    width:100%;
+}
+
+#form-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align:center;
+    margin: auto;
+}
+
 
 #first-text {
     color: var(--main-bg-color);
@@ -68,7 +98,7 @@ html, body, .container {
 
 #second {
     background-color: var(--main-bg-color);
-    padding: 5px 18px;
+    padding: 6em 6em;
 }
 
 #second-text {
@@ -77,8 +107,7 @@ html, body, .container {
 
 #third {
     background-color: var(--tertiary-bg-color);
-    padding: 5px 18px;
-
+    padding: 6em 6em;
 }
 
 #third-text {
@@ -87,7 +116,7 @@ html, body, .container {
 
 #fourth {
     background-color: var(--secondary-bg-color);
-    padding: 5px 18px;
+    padding: 6em 6em;
 }
 
 #fourth-text {
@@ -114,4 +143,3 @@ html, body, .container {
 u {
     text-decoration: underline;
 }
-

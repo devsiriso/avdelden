@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="519.295" height="88.585" viewBox="0 0 519.295 88.585">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#11c6ff"/>
+      <stop offset="0.038" stop-color="#03bcf8"/>
+      <stop offset="1" stop-color="#00b0e5"/>
+      <stop offset="1" stop-color="#3f9bb8"/>
+      <stop offset="1" stop-color="#008cb9"/>
+      <stop offset="1" stop-color="#6b6b6b"/>
+    </linearGradient>
+    <filter id="Path_799" x="0" y="0" width="519.295" height="88.585" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="CTA_Button" data-name="CTA Button" transform="translate(9 9)">
+    <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Path_799)">
+      <path id="Path_799-2" data-name="Path 799" d="M34.951,0H466.344a35.294,35.294,0,0,1,0,70.585H34.951A35.294,35.294,0,0,1,34.951,0Z" transform="translate(9 9)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="OFFERTE_AANVRAGEN" data-name="OFFERTE AANVRAGEN" transform="translate(251 47.216)" fill="#fff" font-size="32" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-163.797" y="0">OFFERTE AANVRAGEN</tspan></text>
+  </g>
+</svg>

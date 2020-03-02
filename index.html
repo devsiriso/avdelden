@@ -14,7 +14,7 @@
 <div class="navbar" id="header">
     <div class="navbar-brand" href="#" id="header-text">Anthony van Delden</div>
 
-    <ul class="nav navbar-nav navbar-right">
+    <ul class=" navbar-nav navbar-right">
         <li><a><img src="assets/images/logo.png" id="header-logo"/></a></li>
     </ul>
 </div>
@@ -30,11 +30,11 @@
             <li class="nav-item active">
                 <a class="nav-link" href="#">Home </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="#">Services</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Certificaten</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Certificaten</a>
             </li>
         </ul>
     </div>
@@ -51,17 +51,51 @@
     </div>
 </nav>
 
-<div class="row" style="line-height: 80vh;" id="first">
+<div class="row" id="first">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
-        <div style="background-color:#fff">
-            Aanvragen
-        </div>
+        <form id="form" style="background-color:#fff">
+            <div id="form-header">Aanvraag indienen</div>
+
+            <div class="row row-flex">
+                <div class="form-group col-md-12" >
+                    <input type="text" class="form-control form-control-lg" id="inputnaam"  placeholder="Uw naam">
+                </div>
+            </div>
+
+            <div class="row row-flex">
+                <div class="form-group col-md-12">
+                    <input type="email" class="form-control form-control-lg" id="inputemail" placeholder="E-mail">
+                </div>
+            </div>
+
+            <div class="row row-flex">
+                <div class="form-group col-md-12">
+                    <input type="text" class="form-control form-control-lg" id="inputcellphone" placeholder="Telefoonnummer">
+                </div>
+            </div>
+
+            <div class="row row-flex">
+                <div class="form-group col-md-12">
+                    <input type="text" class="form-control form-control-lg" id="inputlocatie" placeholder="Locatie">
+                </div>
+            </div>
+
+            <div class="row row-flex">
+                <div class="form-group col-md-12">
+                    <input type="text" class="form-control form-control-lg " id="inputbeschrijving" placeholder="Beschrijving">
+                </div>
+            </div>
+
+            <div class="row row-flex">
+                <div class="form-group col-md-12">
+                    <img src="assets/images/offerteaanvragen-button.svg" style="width:100%;"/>
+                </div>
+            </div>
+        </form>
     </div>
 
-    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
-        <div id="first-text">
-            Aanvragen
-        </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex  " >
+        <img src="assets/images/quote_one.svg" class="ml-auto"/>
     </div>
 </div>
 
