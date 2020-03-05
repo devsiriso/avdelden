@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -53,8 +55,8 @@
 
 <div class="row" id="first">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" >
-        <form id="form" style="background-color:#fff">
-            <div id="form-header">Aanvraag indienen</div>
+        <form class="form" style="background-color:#fff">
+            <div class="form-header">Aanvraag indienen</div>
 
             <div class="row row-flex">
                 <div class="form-group col-md-12" >
@@ -95,47 +97,66 @@
     </div>
 
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex  " >
-        <img src="assets/images/quote_one.svg" class="ml-auto"/>
+        <object type="image/svg+xml" data="assets/images/quote_one.svg" class="ml-auto" id="second-text">
+
+        </object>
     </div>
 </div>
 
-<div class="row" style="line-height: 40vh;" id="second">
+<div class="row"  id="second">
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" >
-        <img src="assets/images/ford_stock.png" alt="car image" class="main_image"/>
+        <img src="assets/images/ford_stock.jpg" alt="car image" class="main_image"/>
     </div>
 
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" >
-        <div id="second-text">
-            Services
-        </div>
-    </div>
+    <object type="image/svg+xml"
+            data="assets/images/services.svg"
+            class="ml-auto">
+
+    </object>
 </div>
 
 <hr class="divider"/>
 
-<div class="row" style="line-height: 40vh;" id="third">
+<div class="row"  id="third">
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <img src="assets/images/asbestos_stock.png" class="main_image">
+        <img src="assets/images/asbestos_stock.jpg" class="main_image">
     </div>
 
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <div id="third-text">
-            Contracten
-        </div>
-    </div>
+    <object type="image/svg+xml"
+            data="assets/images/certificaten.svg"
+            class="ml-auto">
+
+    </object>
 </div>
 
-<div class="row" style="line-height: 80vh;" id="fourth">
-    <div class="col-lg-12 col-md-12">
-        <div id="fourth-text">
-            Contact
-        </div>
+<div class="row"  id="fourth">
+
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex  " >
+        <object type="image/svg+xml" data="assets/images/quote_two.svg" class="mr-auto">
+
+        </object>
     </div>
+
+    <form class="form-two ml-auto" >
+        <div class="form-header">Aanvraag indienen</div>
+
+        <div class="row row-flex">
+            <div class="form-group col-md-12" >
+                <input type="text" class="form-control form-control-lg" placeholder="Uw naam">
+            </div>
+        </div>
+
+        <div class="row row-flex">
+            <div class="form-group col-md-12">
+                <img src="assets/images/versturen-button.svg" style="width:100%;"/>
+            </div>
+        </div>
+    </form>
 </div>
 
 <hr class="divider"/>
 
-<div class="row" style="line-height: 20vh;" id="footer">
+<div class="row" id="footer">
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <div class="footer-text">
             <u>© 2019 www.avdelden.nl</u>
