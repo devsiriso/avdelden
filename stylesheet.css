@@ -20,7 +20,7 @@ html, body, .container {
 
 #header-text {
     color:var(--secondary-bg-color);
-    font-size: 48px;
+    font-size: 4rem;
 }
 
 #header-logo {
@@ -88,6 +88,11 @@ html, body, .container {
     padding: 6em 6em;
 }
 
+.quote {
+    width: 30vw;
+    height:auto;
+}
+
 .form {
     height:60vh;
     width:35vw;
@@ -115,6 +120,11 @@ html, body, .container {
     margin-right: auto;
 }
 
+.svg-text {
+    width: 45vw;
+    height:auto;
+}
+
 #second {
     background-color: var(--main-bg-color);
     padding: 6em 6em;
@@ -133,17 +143,22 @@ html, body, .container {
 .form-two {
     background-color: var(--secondary-bg-color);;
 
-    height:60vh;
-    width:35vw;
+    /*height:60vh;*/
+    /*width:35vw;*/
 
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*flex-wrap: wrap;*/
+}
+
+#versturen-button {
+    width: 100%;
 }
 
 #footer {
     height:10vh;
-    padding: 5px 18px;
+    padding-left:6em;
+    padding-right:6em;
     background: var(--main-bg-color) url('assets/images/camo.png');
 }
 
