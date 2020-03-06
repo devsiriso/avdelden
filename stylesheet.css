@@ -31,8 +31,21 @@ html, body, .container {
 
 .nav {
     background-color: var(--main-bg-color);
-    padding-left: 6em;
-    padding-right: 6em;
+    padding: 0 6em;
+}
+
+.nav-item {
+    border-right: 1px solid #707070;
+
+}
+
+.nav-link {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    /*TODO: Correctly center this*/
+    margin-top: 1vh;
+    height:3vh;
+    padding:0;
 }
 
 .social-icon {
