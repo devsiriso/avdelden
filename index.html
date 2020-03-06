@@ -13,51 +13,56 @@
 </head>
 <body>
 
-<div class="navbar" id="header">
-    <div class="" href="#" id="header-text">Anthony van Delden</div>
+<div class="row">
+    <div class="navbar" id="header">
+        <div class="" href="#" id="header-text">Anthony van Delden</div>
 
-    <a class="navbar-brand"><img src="assets/images/logo.png" id="header-logo"/></a>
+        <a class="navbar-brand"><img src="assets/images/logo.png" id="header-logo"/></a>
+    </div>
 </div>
 
 <hr class="divider w-100" style=""/>
 
-<nav class="navbar navbar-expand-lg navbar-dark nav">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active" >
-                <a class="nav-link first-nav-link" href="#first" >
-                    <span >Home</span>
-                </a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#second">Services</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#third">Certificaten</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#fourth">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <div class="navbar-nav mr-auto mt-2 mt-lg-0 mr-sm-2">
-        <div class=" social-icon">
-            <img src="assets/images/icons-1.svg">
+<div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active" >
+                    <a class="nav-link first-nav-link" href="#first" >
+                        <span >Home</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#second">Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#third">Certificaten</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#fourth">Contact</a>
+                </li>
+            </ul>
         </div>
-        <div class=" social-icon">
-            <img src="assets/images/icons-2.svg">
+
+        <div class=" ml-auto" id="socials">
+            <div class=" social-icon">
+                <img src="assets/images/icons-1.svg">
+            </div>
+            <div class=" social-icon">
+                <img src="assets/images/icons-2.svg">
+            </div>
+            <div class=" social-icon">
+                <img src="assets/images/icons-3.svg">
+            </div>
         </div>
-        <div class=" social-icon">
-            <img src="assets/images/icons-3.svg">
-        </div>
-    </div>
-</nav>
+    </nav>
+</div>
 
 <div class="row justify-content-center" id="first">
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mx-auto"  >
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mx-auto" id="a" >
         <form class="form " style="background-color:#fff; margin:auto;">
             <div class="form-header">Aanvraag indienen</div>
 
@@ -99,10 +104,8 @@
         </form>
     </div>
 
-    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6   " >
-        <object type="image/svg+xml" data="assets/images/quote_one.svg" class="ml-auto quote" id="quote_one">
-
-        </object>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " id="b">
+        <img src="assets/images/quote_one.svg" alt="quote" class="quote" id="quote-one"/>
     </div>
 </div>
 
@@ -141,14 +144,11 @@
 </div>
 
 <div class="row"  id="fourth">
-    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex  " >
-        <object type="image/svg+xml" data="assets/images/quote_two.svg" class="mr-auto quote">
-
-        </object>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " >
+        <img src="assets/images/quote_two.svg" alt="quote" class="quote" id="quote-two"/>
     </div>
 
-    <!--<div class="form-header">Aanvraag indienen</div>-->
-    <form class="ml-right form-two col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex">
+    <form class="ml-right form-two col-xs-12 col-sm-12 col-md-6 col-lg-6 d-flex">
         <div class="form-row">
             <div class="form-group col-md-4">
                 <label for="inputEmail2">Email</label>
