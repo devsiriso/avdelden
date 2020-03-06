@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="620.728" height="62.079" viewBox="0 0 620.728 62.079">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#11c6ff"/>
+      <stop offset="0.038" stop-color="#03bcf8"/>
+      <stop offset="1" stop-color="#00b0e5"/>
+      <stop offset="1" stop-color="#3f9bb8"/>
+      <stop offset="1" stop-color="#008cb9"/>
+      <stop offset="1" stop-color="#6b6b6b"/>
+    </linearGradient>
+    <filter id="Path_799" x="0" y="0" width="620.728" height="62.079" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="CTA_Button" data-name="CTA Button" transform="translate(9 9)">
+    <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Path_799)">
+      <path id="Path_799-2" data-name="Path 799" d="M22.493,0H581.075c24.994,0,21.484,9.868,21.484,22.04s3.51,22.04-21.484,22.04H22.493C-2.5,44.079.075,37.209.075,25.036S-2.5,0,22.493,0Z" transform="translate(9 9)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="VERSTUUR" transform="translate(301.267 29.629)" fill="#fff" font-size="19" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-46.614" y="0">VERSTUUR</tspan></text>
+  </g>
+</svg>
