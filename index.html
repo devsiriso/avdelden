@@ -100,7 +100,7 @@
 
                     <div class="row row-flex">
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control form-control-lg" id="inputcellphone"
+                            <input type="text" class="form-control form-control-lg" id="inputtelefoon"
                                    placeholder="Telefoonnummer">
                         </div>
 
@@ -117,8 +117,25 @@
                         </div>
                     </div>
 
+                    <script>
+                        function sendMail() {
+                            var naam = document.getElementById('inputnaam').value;
+                            var email = document.getElementById('inputemail').value;
+                            var telefoonnummer = document.getElementById('inputtelefoon').value;
+                            var locatie = document.getElementById('inputlocatie').value;
+                            var beschrijving = document.getElementById('inputbeschrijving').value;
+                            window.location.href = 'mailto:info@avdelden.nl?' +
+                                'subject='
+                                + naam + ' '
+                                + email + ' '
+                                + telefoonnummer + ' '
+                                + locatie + ' '
+                                + '&body=' + beschrijving;
+                        }
+                    </script>
+
                     <div class="row row-flex">
-                        <img src="assets/images/offerteaanvragen-button.svg" id="offerte-button"/>
+                        <img src="assets/images/offerteaanvragen-button.svg" id="offerte-button" onclick="sendMail()"/>
                     </div>
                 </form>
             </div>
@@ -145,10 +162,6 @@
         <img src="assets/images/services_mobile.svg" alt="car image" class="svg-text"/>
     </div>
 </div>
-
-<!--<object data="assets/images/barbs.svg" type="image/svg+xml">-->
-    <!--<img src="assets/images/barbs.svg" id="barbs-image"/>-->
-<!--</object>-->
 
 <div id="barbs-wrapper">
     <img src="assets/images/barbs.svg" id="barbs-image"/>
@@ -180,22 +193,34 @@
                 <input type="email" class="form-control" id="inputEmail2" placeholder="Email">
             </div>
             <div class="form-group col-xs-12 col-sm-12 col-md-4 " >
-                <input type="text" class="form-control" id="inputName" placeholder="Naam">
+                <input type="text" class="form-control" id="inputNaam2" placeholder="Naam">
             </div>
             <div class="form-group col-xs-12 col-sm-12 col-md-4 ">
-                <input type="text" class="form-control" id="inputLocation" placeholder="Locatie">
+                <input type="text" class="form-control" id="inputLocatie2" placeholder="Locatie">
             </div>
             <div class="form-group col-xs-12 col-sm-12 col-md-12 ">
-                <textarea type="text" rows="6" class="form-control" id="inputMessage" placeholder="Bericht"></textarea>
+                <textarea type="text" rows="6" class="form-control" id="inputBericht" placeholder="Bericht"></textarea>
             </div>
             <div class="form-group col-md-12 ">
-                <img src="assets/images/versturen-button.svg" id="versturen-button"/>
+                <script>
+                    function _sendMail() {
+                        var naam = document.getElementById('inputNaam2').value;
+                        var email = document.getElementById('inputEmail2').value;
+                        var locatie = document.getElementById('inputLocatie2').value;
+                        var beschrijving = document.getElementById('inputBericht').value;
+                        window.location.href = 'mailto:info@avdelden.nl?' +
+                            'subject='
+                            + naam + ' '
+                            + email + ' '
+                            + locatie + ' '
+                            + '&body=' + beschrijving;
+                    }
+                </script>
+                <img src="assets/images/versturen-button.svg" id="versturen-button" onclick="_sendMail()"/>
             </div>
         </div>
     </form>
 </div>
-
-
 
 <footer id="footer" class="footer-1">
     <div class="main-footer widgets-dark typo-light">
