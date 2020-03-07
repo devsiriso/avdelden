@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="85" viewBox="0 0 1920 85">
+  <defs>
+    <clipPath id="clip-barbs">
+      <rect width="1920" height="85"/>
+    </clipPath>
+  </defs>
+  <g id="barbs" clip-path="url(#clip-barbs)">
+    <rect width="1920" height="85" fill="#24231f"/>
+    <g id="barbs-2" data-name="barbs" transform="translate(1 -1782.197)">
+      <rect id="Rectangle_1874" data-name="Rectangle 1874" width="1920" height="39" transform="translate(-1 1828.197)" fill="#404642"/>
+      <rect id="Rectangle_1875" data-name="Rectangle 1875" width="1920" height="38" transform="translate(-1 1782.197)" fill="#24231f"/>
+      <path id="Divider" d="M0,0H1920V11.428H0Z" transform="translate(-1 1818.537)" fill="#11c6ff"/>
+      <g id="Barbed" transform="translate(229.967 1774.913)">
+        <g id="Group_569" data-name="Group 569" transform="matrix(0.883, -0.469, 0.469, 0.883, -1, 11.167)">
+          <path id="Path_890" data-name="Path 890" d="M12,.057l12.15,49.914L.236,49.877Z" transform="translate(0.09 0)" fill="#11c6ff"/>
+          <path id="Path_822" data-name="Path 822" d="M12.017.057,24.187,49.971.236,49.877Z" transform="translate(24.277 99.373) rotate(180)" fill="#11c6ff"/>
+        </g>
+        <g id="Group_571" data-name="Group 571" transform="matrix(0.883, -0.469, 0.469, 0.883, 378.013, 9.159)">
+          <path id="Path_891" data-name="Path 891" d="M11.5.057,23.138,49.971.225,49.876Z" transform="translate(0.298 1.78)" fill="#11c6ff"/>
+          <path id="Path_822-2" data-name="Path 822" d="M11.379.057,22.9,49.971.223,49.876Z" transform="translate(23.476 100.851) rotate(180)" fill="#11c6ff"/>
+        </g>
+        <g id="Group_570" data-name="Group 570" transform="matrix(0.883, -0.469, 0.469, 0.883, 191, 10.167)">
+          <path id="Path_892" data-name="Path 892" d="M11.695.057,23.539,49.971.229,49.876Z" transform="translate(0.298 0.901)" fill="#11c6ff"/>
+          <path id="Path_822-3" data-name="Path 822" d="M11.6.057,23.345,49.971.227,49.876Z" transform="translate(23.878 99.684) rotate(180)" fill="#11c6ff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
