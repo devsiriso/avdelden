@@ -27,8 +27,12 @@ html, body, .container{
     font-size: 200%;
 }
 
-#header-logo {
+#header-logo-wrapper {
+    margin:0;
+    padding:0;
+}
 
+#header-logo {
     margin-bottom:20px;
     width:75%;
 }
