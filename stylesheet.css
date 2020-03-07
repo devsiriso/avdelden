@@ -14,10 +14,7 @@ html, body, .container{
     overflow-x: hidden;
 }
 
-.col {
-    margin:0;
-    padding:0;
-}
+
 #header {
     width:100%;
     background: var(--main-bg-color) url('assets/images/camo.png');
@@ -36,18 +33,15 @@ html, body, .container{
     width:75%;
 }
 
-#nav {
-    /*padding: 2em 6em;*/
-}
 .nav {
     background-color: var(--main-bg-color);
 
-    padding: 1em 6em !important;
 }
 
-.navbar {
+.nav {
     width:100%;
-    margin:0;
+    padding-left: 6em !important;
+    padding-right:6em !important;
 }
 
 .nav-item {
@@ -55,15 +49,26 @@ html, body, .container{
 }
 
 .nav-link {
-    margin-left: 5vw;
-    margin-right: 5vw;
 
-    padding:0;
 }
 
 .first-nav-link {
     /*TODO: Make this more elegant*/
     margin-left: 0 !important;;
+}
+
+.nav-animation {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.nav-animation:hover {
+    background-color: #747471;
+    color: #EEA200;
+
 }
 
 #socials {
@@ -84,7 +89,7 @@ html, body, .container{
     padding:0;
     border:0;
 
-    height:1vh;
+    height:5px;
 
     -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.23);
     -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.23);
@@ -108,7 +113,7 @@ html, body, .container{
 }
 
 .quote {
-    width: 30vw;
+    width: 25vw;
     height:auto;
 }
 
@@ -118,11 +123,11 @@ html, body, .container{
 }
 
 .form {
-    height:60vh;
-    width:35vw;
+    width:35.885vw;
+    height:50vh;
 
-    margin:0;
-    padding: 2em 6em;
+    margin:0 !important;
+    padding: 10px 10px;
 
     display: flex;
     align-items: center;
@@ -143,6 +148,7 @@ html, body, .container{
     text-align:center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom:10px;
 }
 
 #offerte-button {
@@ -161,10 +167,18 @@ html, body, .container{
     text-align:right;
 }
 
+#second-text-mobile {
+    display:none;
+}
+
 #third {
     background-color: var(--tertiary-bg-color);
     padding: 6em 6em;
     text-align:right;
+}
+
+#third-text-mobile {
+    display:none;
 }
 
 #fourth {
@@ -195,23 +209,10 @@ html, body, .container{
     /*height:10vh;*/
     /*padding-left:6em;*/
     /*padding-right:6em;*/
-    /*background: var(--main-bg-color) url('assets/images/camo.png');*/
 /*}*/
 
 .footer-text {
     color: var(--secondary-bg-color);
-}
-
-.footer-icons {
-    float:right;
-}
-
-.footer-icon {
-    margin:5px;
-}
-
-u {
-    text-decoration: underline;
 }
 
 /*====================
@@ -219,11 +220,11 @@ u {
 ====================== */
 
 /* Main Footer */
-footer .main-footer{	padding: 20px 0;	background: #252525;}
+footer .main-footer{	padding: 20px 0;	background: var(--main-bg-color);}
 footer ul{	padding-left: 0;	list-style: none;}
 
 /* Copy Right Footer */
-.footer-copyright {	background: #222;	padding: 5px 0;}
+.footer-copyright {	background: var(--main-bg-color) url('assets/images/camo.png');	padding: 5px 0;}
 .footer-copyright .logo {    display: inherit;}
 .footer-copyright nav {    float: right;    margin-top: 5px;}
 .footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
@@ -279,21 +280,24 @@ ul.social-footer2 li {display: inline-block;padding: 0;}
 
 ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
 
-
-
 @media (max-width: 768px) {
-    .nav {
+    #header {
         padding-left: 2em;
         padding-right: 2em;
-        margin:0;
+    }
+
+    #header-logo {
+        width:80%;
+    }
+
+    .nav {
+        padding-left: 2em !important;
+        padding-right:2em !important;
     }
 
     #socials {
-
         text-align:right;
     }
-
-
 
     .main_image {
         width:100%;
@@ -328,7 +332,7 @@ ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: cent
 
     .form {
         margin:0;
-        padding:1em;
+        padding:10px 10px;
         width:100%;
         height:100%;
     }
@@ -347,12 +351,24 @@ ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: cent
     }
 
     #second-text {
+        display:none;
+    }
 
+    #second-text-mobile {
+        display:block;
     }
 
     #third {
         padding: 2em 2em;
         text-align:center;
+    }
+
+    #third-text {
+        display:none;
+    }
+
+    #third-text-mobile {
+        display:block;
     }
 
     #fourth {
@@ -366,9 +382,5 @@ ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: cent
 
     .form-two {
 
-    }
-
-    .footer-icons {
-        float:left;
     }
 }
