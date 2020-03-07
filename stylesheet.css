@@ -50,10 +50,13 @@ html, body, .container{
 
 .nav-item {
     border-right: 1px solid #707070;
+
+
 }
 
 .nav-link {
-
+    margin-left:3em !important;
+    margin-right:3em !important;
 }
 
 .first-nav-link {
@@ -124,8 +127,6 @@ html, body, .container{
 }
 .main_image {
     width:35.885vw;
-
-
     -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.23);
     -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.23);
     box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.23);
@@ -141,29 +142,42 @@ html, body, .container{
     height:auto;
 }
 
-.form-container {
-    margin:0;
-    padding:0;
+.card {
+    width:35.885vw
 }
 
 .form {
-    width:35.885vw;
-    height:50vh;
+    height:40vh;
 
     margin:0 !important;
-    padding: 10px 10px;
+    padding: 0;
 
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 
-    -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.10);
-    -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.10);
-    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.10);
+}
+
+.form-container {
+    margin:0;
+    padding:0;
+}
+
+#form-image {
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    object-fit: cover;
+
 }
 
 .row-flex {
     width:100%;
+    margin:0 !important;
+    padding:0;
 }
 
 .form-header {
@@ -172,7 +186,6 @@ html, body, .container{
     text-align:center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:10px;
 }
 
 #offerte-button {
@@ -352,18 +365,16 @@ ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: cent
 
     #quote-one {
         margin-bottom:5em;
+    }
 
+    .card {
+        width: 100%;
+        margin: auto !important;
     }
 
     .form {
-        margin:0;
-        padding:10px 10px;
         width:100%;
         height:100%;
-    }
-
-    .form-header {
-        margin-bottom:1em;
     }
 
     .row-flex {
