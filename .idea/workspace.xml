@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abaf6c6d-fe93-4fa7-b4e1-c69c077c9010" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/quote_one.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/quote_one.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/quote_two.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/quote_two.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/versturen-button.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/versturen-button.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,14 +21,15 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="145" column="105" selection-start-line="145" selection-start-column="105" selection-end-line="145" selection-end-column="105" />
+                <state relative-caret-position="403">
+                  <caret line="204" column="24" lean-forward="true" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="24" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -127,8 +125,8 @@
       <list>
         <option value="$PROJECT_DIR$/assets/images/barbs.svg" />
         <option value="$PROJECT_DIR$/javascript.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheet.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -217,7 +215,7 @@
       <workItem from="1583535867200" duration="13793000" />
       <workItem from="1583609870418" duration="1678000" />
       <workItem from="1583747381143" duration="212000" />
-      <workItem from="1583755982150" duration="2249000" />
+      <workItem from="1583755982150" duration="2802000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1583124194179</created>
@@ -230,7 +228,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72621000" />
+    <option name="totallyTimeSpent" value="73174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="0" width="2560" height="1400" extended-state="6" />
@@ -326,24 +324,25 @@
     <entry file="file://$PROJECT_DIR$/assets/images/icons-3.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="140" column="19" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="145" column="105" selection-start-line="145" selection-start-column="105" selection-end-line="145" selection-end-column="105" />
+        <state relative-caret-position="403">
+          <caret line="204" column="24" lean-forward="true" selection-start-line="204" selection-start-column="24" selection-end-line="204" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="140" column="19" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
         </state>
       </provider>
     </entry>
