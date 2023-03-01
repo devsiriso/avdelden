@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AVD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        body,
+        html {
+            background-color: black;
+            height: 100vh;
+        }
+
+        #main {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+        }
+
+        .text {
+            color: white;
+            text-align: center;
+        }
+
+        #naam {
+            font-weight: bold;
+        }
+
+        .social-icon {
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="text" id="naam">
+            <img id="logo" src="logo.png" />
+            <br /><br />Anthony van Delden
+            <br />Asbest Deskundige
+        </div>
+
+        <div class="text" id="motto">
+            "als advies echt onafhankelijk moet zijn"
+        </div>
+
+        <div class="text" id="social-wrapper">
+            <div class=" social-icon">
+                <a href="whatsapp://send?text=Hallo Anthony!&phone=+31643213622">
+                    <img src="icon-whatsapp.svg" class="footer-icon" alt="whatsapp" />
+                </a>
+            </div>
+            <div class=" social-icon">
+                <a href="mailto:info@avdelden.nl">
+                    <img src="icon-gmail.svg" class="footer-icon" alt="mail" />
+                </a>
+            </div>
+            <div class=" social-icon">
+                <a href="https://www.linkedin.com/in/anthony-v-07b19733/">
+                    <img src="icon-linkedin.svg" class="footer-icon" alt="linkedin" />
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
